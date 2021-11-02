@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Titan Print LLC</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="products.html">PORTFOLIO</a></li>
+                    <li><a href="">TESTIMONIALS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>New Titan Print provides affordable printing solutions</h1>
+                <p>New Titan Print is a China-based printing and packaging
+                    company that connects North American clients and its production
+                    facilities and partners in China. Keep more profit and control your revenue!In 2003, Russell Potterfield was a business owner with a problem.
+
+                    He was paying too much for his business printing needs, and the costs kept rising.
+                    
+                    He discovered that printing in China was an affordable solution, and delivered the same high-quality printing as his U.S. printers. Skeptical at first, he started small, but over time his company did more and more of their printing in China. However, coordinating a project halfway around the world came with risks.
+                    
+                    So in 2009, Russell and his family moved to Shenzhen, China and PrintNinja was born.
+                    
+                    Our American team handles customer service and prepress, while our Chinese team handles production and logistics. Together we maintain low prices while providing top quality printing and customer service.
+                    
+                    PrintNinja has printed millions of comic books, children’s books, games, magazines, and catalogs for thousands of independent creators, self-publishers, and businesses. Our reputation is the best in the industry, and we work hard every day to uphold it.</p>
+            </div>
+
+
+            <div class="about-col">
+                <img src="images/office.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>First and foremost, we are legally registered business entity
+            in New Jersey, USA, so we are <br>accountable for what we do.
+            Get additional insights into our company and how things work.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var NavLinks = document.getElementById("NavLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
